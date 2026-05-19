@@ -38,9 +38,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="hero-stats">
-              <Counter target={6} label="Proje" />
-              <Counter target={1000} label="+ İndirme" suffix="+" />
-              <Counter target={2} label="+ Yıllık Deneyim" />
+              <Counter target={2} label="Tamamlanan Proje" />
+              <Counter target={1000} label="İndirme" suffix="+" />
+              <Counter target={2} label="Yıllık Deneyim" suffix="+" />
             </div>
           </div>
           <div className="hero-visual">

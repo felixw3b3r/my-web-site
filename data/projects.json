@@ -2,7 +2,7 @@
   {
     "id": "archer-app",
     "title": "Archer App",
-    "description": "Kullanıcıların notlarını kategorilere ayırarak yönetebileceği, arama ve etiketleme özelliklerine sahip modern bir not alma uygulaması.",
+    "description": "Sporcuların ve antrenörlerin geçmiş antrenmanları, kişisel gelişimleri ve öğrenci ilerlemelerini kolayca takip edip analiz edebileceği modern bir okçuluk antrenman ve gelişim takip uygulaması.",
     "longDescription": "Gelişmiş ve hızlı arayüzü sayesinde geçmiş antrenmanlarınızı, kişisel gelişiminizi ve aynı zamanda öğrencilerinizin kişisel gelişimini en iyi şekilde takip edebilir, öğrenciler arasında yarışmalar düzenleyerek derece takibi yapabilirsiniz.",
     "features": [
       "Antrenman takibi",

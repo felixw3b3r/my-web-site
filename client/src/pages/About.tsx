@@ -38,9 +38,9 @@ export default function About() {
                 ile backend çözümleri üreterek full-stack bir perspektifle çalışıyorum.
               </p>
               <div className="about-stats">
-                <Counter target={4} label="Tamamlanan Proje" />
+                <Counter target={2} label="Tamamlanan Proje" />
                 <Counter target={2} label="Yıllık Deneyim" suffix="+" />
-                <Counter target={20} label="Çalışılan Proje" suffix="+" />
+                <Counter target={5} label="Geliştirilen Proje" suffix="+" />
               </div>
             </div>
           </div>
