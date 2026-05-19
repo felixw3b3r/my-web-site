@@ -1,0 +1,68 @@
+[
+  {
+    "id": "archer-app",
+    "title": "Archer App",
+    "description": "Kullanıcıların notlarını kategorilere ayırarak yönetebileceği, arama ve etiketleme özelliklerine sahip modern bir not alma uygulaması.",
+    "longDescription": "Gelişmiş ve hızlı arayüzü sayesinde geçmiş antrenmanlarınızı, kişisel gelişiminizi ve aynı zamanda öğrencilerinizin kişisel gelişimini en iyi şekilde takip edebilir, öğrenciler arasında yarışmalar düzenleyerek derece takibi yapabilirsiniz.",
+    "features": [
+      "Antrenman takibi",
+      "Ok başına puan takibi",
+      "Öğrenci takibi",
+      "Gelişmiş ve basit arayüz",
+      "Sisteme yeni öğrenci kayıt etme"
+    ],
+    "technologies": ["Java", "Node.js", "TypeScript", "MongoDB"],
+    "screenshots": [
+      "/images/archer/Screenshot_2026-05-18-19-27-55-943_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-19-28-03-382_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-19-29-19-041_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-20-17-41-062_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-20-17-42-746_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-20-17-48-606_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-20-18-03-635_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-20-18-13-454_com.zoomy.archerpro.jpg",
+      "/images/archer/Screenshot_2026-05-18-20-18-16-296_com.zoomy.archerpro.jpg"
+    ],
+    "image": "/images/archer/Screenshot_2026-05-18-19-27-55-943_com.zoomy.archerpro.jpg",
+    "apkFile": "/downloads/archer-app-v2.3.apk",
+    "version": "2.3",
+    "size": "70+ MB",
+    "date": "2025-12-01",
+    "category": "spor"
+  },
+  {
+    "id": "bistal",
+    "title": "BistAL",
+    "description": "Borsa İstanbul verilerini anlık takip edebileceğiniz, portföy yönetimi ve teknik analiz yapabileceğiniz kapsamlı bir finans uygulaması.",
+    "longDescription": "BistAL ile Borsa İstanbul'daki hisse senetlerini anlık olarak takip edin. Gelişmiş portföy yönetimi, teknik analiz araçları ve haber akışı ile yatırımlarınızı yönetin. Modern arayüzü sayesinde kullanımı kolay ve etkili bir finansal takip deneyimi sunar.",
+    "features": [
+      "Anlık BIST verileri ve grafikler",
+      "Portföy yönetimi ve takibi",
+      "Teknik analiz araçları",
+      "Finansal haber akışı",
+      "SmtAI al analist ve takip sistemi ile yüksek kazanç",
+      "Portföy takip",
+      "Yatırım kıyaslama",
+      "Amerika borsalarını takip etme"
+    ],
+    "technologies": ["TypeScript", "JavaScript", "Node.js", "MongoDB", "REST API"],
+    "screenshots": [
+      "/images/projects/bistal/1.png",
+      "/images/projects/bistal/2.png",
+      "/images/projects/bistal/3.png",
+      "/images/projects/bistal/4.png",
+      "/images/projects/bistal/5.png",
+      "/images/projects/bistal/6.png",
+      "/images/projects/bistal/7.png",
+      "/images/projects/bistal/8.png",
+      "/images/projects/bistal/9.png",
+      "/images/projects/bistal/10.png"
+    ],
+    "image": "/images/projects/bistal/1.png",
+    "apkFile": "/downloads/bistal-v1.0.apk",
+    "version": "1.0.0",
+    "size": "8.2 MB",
+    "date": "2025-10-15",
+    "category": "finance"
+  }
+]
