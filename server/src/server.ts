@@ -16,7 +16,16 @@ app.use(express.json());
 // Serve static files from client build in production
 const clientBuild = path.join(__dirname, "..", "..", "client", "dist");
 if (fs.existsSync(clientBuild)) {
-  app.use(express.static(clientBuild));
+  app.use(
+    express.static(clientBuild, {
+      setHeaders: (res, filePath) => {
+        if (filePath.endsWith(".apk")) {
+          res.setHeader("Content-Type", "application/vnd.android.package-archive");
+          res.setHeader("Content-Disposition", `attachment; filename="${path.basename(filePath)}"`);
+        }
+      },
+    })
+  );
 }
 
 // API routes

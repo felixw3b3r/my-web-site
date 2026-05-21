@@ -11,6 +11,10 @@
     "install:all": "npm install && cd server && npm install && cd ../client && npm install"
   },
   "devDependencies": {
-    "concurrently": "^8.2.0"
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1",
+    "concurrently": "^8.2.0",
+    "express": "^5.2.1",
+    "typescript": "^6.0.3"
   }
 }

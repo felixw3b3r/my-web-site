@@ -54,7 +54,11 @@ export default function Download() {
                   </div>
                 </div>
                 <div className="download-item-action">
-                  <a href={p.apkFile} className="btn btn-primary" download>
+                  <a 
+                    href={`/api/projects/${p.id}/download`} 
+                    className="btn btn-primary" 
+                    download
+                  >
                     <i className="fas fa-download"></i> İndir
                   </a>
                   <Link to={`/projects/${p.id}`} className="btn btn-link">
